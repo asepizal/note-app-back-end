@@ -71,7 +71,6 @@ class NotesService {
       throw new NotFoundError('Catatan gagal dihapus. Id tidak ditemukan');
     }
   }
-
 }
 
 module.exports = NotesService;
